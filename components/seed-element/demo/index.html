@@ -12,18 +12,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-    <title>seed-element Demo</title>
+    <title>my-element Demo</title>
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../seed-element.html">
+    <link rel="import" href="../seed-element/seed-element.html">
+    <style>
+      p, h2 {
+        color: green;
+      }
+  </style>
   </head>
   <body>
 
-    <p>An example of <code>&lt;seed-element&gt;</code>:</p>
+    <p>My example of <code>&lt;seed-element&gt;</code>:</p>
 
-    <button>Say Something</button>
+    <button>click here! </button>
 
-    <seed-element author='{"name": "Lord Meowser", "image": "http://placekitten.com/g/200/300"}' fancy>
-      <h2>Hello seed-element</h2>
+    <seed-element author='{"name": "Linnea S", "image": "http://placekitten.com/g/200/300"}' fancy>
+      <h2>Hello my-element</h2>
     </seed-element>
 
     <script>
